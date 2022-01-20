@@ -5,9 +5,9 @@ export const Home = () => {
   const data = costumers;
   return (
     <div>
-      <div>
-        <Review review={data} />
-      </div>
+      <h1>Opinião dos Clientes</h1>
+      <p>O que nossos clientes tem a dizer.</p>
+      <Review review={data} />
     </div>
   );
 };
