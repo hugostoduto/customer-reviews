@@ -1,13 +1,14 @@
 import { Review } from "../Reviews";
-import costumers from "../../costumers";
+import "./style.css";
 
 export const Home = () => {
-  const data = costumers;
   return (
-    <div>
-      <h1>Opinião dos Clientes</h1>
-      <p>O que nossos clientes tem a dizer.</p>
-      <Review review={data} />
-    </div>
+    <>
+      <div className="homeContainer">
+        <h1>Opinião dos Clientes</h1>
+        <p>O que nossos clientes tem a dizer.</p>
+      </div>
+      <Review />
+    </>
   );
 };

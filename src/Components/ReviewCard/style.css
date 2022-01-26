@@ -1,3 +1,9 @@
+.review-container {
+  position: relative;
+  height: 150px;
+  width: 350px;
+  transition: 0.5s;
+}
 .review {
   background-color: #b191ff;
   height: 150px;
@@ -8,6 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: -5px 5px 13px #5527ca6b;
 }
 .review p {
   margin: 0;
@@ -32,4 +39,19 @@
   width: 80%;
   text-align: left;
   font-size: 0.8rem;
+}
+.aspas {
+  display: flex;
+  position: absolute;
+  width: 90%;
+  height: 90%;
+
+  justify-content: space-between;
+}
+.aspasL {
+  color: #9c77f4;
+}
+.aspasR {
+  color: #9c77f4;
+  align-self: flex-end;
 }

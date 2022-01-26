@@ -1,0 +1,10 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #b191ff;
+}
+.homeContainer h1,
+p {
+  margin: 0px;
+}
